@@ -1,0 +1,52 @@
+:root {
+  --mainBlue: #50d2c2;
+  --mainGreen: #3F7856;
+  --lightGreen: #7EC384;
+  --mainYellow: #ffb301;
+  --mainRed: #ff414d;
+  --lightRed: #f56a79;
+  --mainWhite: #f3f3f3;
+  --lightWhite: #d9ecf2;
+  --mainDark: #002D40;
+}
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+
+.text-title {
+  font-family: 'Baloo Thambi', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-green {
+  color: var(--mainGreen);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
